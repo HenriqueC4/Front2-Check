@@ -33,7 +33,7 @@ enviar.addEventListener("click", function(again){
     let img=document.querySelector("img")
     let texto=document.querySelector("p")
     let generoEscolhido=document.getElementById("generoEscolhido")
-    let h2Nota=document.getElementById("h4Nota")
+    let h4Nota=document.getElementById("h4Nota")
 
     h2Titulo.innerText=titulo.value;
     img.setAttribute("src", url.value);
